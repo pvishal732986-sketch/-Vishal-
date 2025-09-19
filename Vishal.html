@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume - STUDENT PORTFOLIO</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f1f1f1;
+      padding: 30px;
+      color: #333;
+    }
+
+    .resume {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    /* LEFT COLUMN */
+    .left {
+      background: #222;
+      color: #fff;
+      padding: 25px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      display: block;
+      border: 4px solid #fff;
+    }
+
+    .section-title {
+      font-size: 1.2rem;
+      margin: 20px 0 10px;
+      border-bottom: 2px solid #ffeb3b;
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    /* RIGHT COLUMN */
+    .right {
+      padding: 30px;
+    }
+
+    .name {
+      font-size: 2rem;
+      color: #222;
+    }
+
+    .role {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: #0077ff;
+      margin: 20px 0 10px;
+      border-bottom: 2px solid #0077ff;
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+
+    .education, .objective, .skills, .projects {
+      margin-bottom: 20px;
+    }
+
+    .education ul li, .projects ul li {
+      margin-bottom: 10px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .resume {
+        grid-template-columns: 1fr;
+      }
+      .left, .right {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume">
+    <!-- LEFT COLUMN -->
+    <div class="left">
+      <img src="IMG_20250904_200312.jpg" alt="Profile Picture" class="profile-pic">
+
+      <h3 class="section-title">Personal Skills</h3>
+      <ul>
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Problem Solving</li>
+        <li>Adaptability</li>
+        <li>Time Management</li>
+      </ul>
+
+      <h3 class="section-title">Hobbies</h3>
+      <ul>
+        <li>Reading Books</li>
+        <li>Sports & Fitness</li>
+        <li>Music</li>
+        <li>Cooking</li>
+      </ul>
+
+      <h3 class="section-title">Languages</h3>
+      <ul>
+        <li>English</li>
+        <li>Tamil</li>
+        <li>Hindi</li>
+      </ul>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="right">
+      <h1 class="name">P.VISHAL</h1>
+      <p class="role">Computer Science Student</p>
+
+      <div class="contact-info">
+        <p>📞 +91 9876543210</p>
+        <p>📧 vishal@example.com</p>
+        <p>📍 Tamil Nadu, India</p>
+      </div>
+
+      <div class="objective">
+        <h2>Career Objective</h2>
+        <p>
+          Enthusiastic individual eager to start a promising career in Computer Science.
+          Looking for an opportunity where I can contribute my skills and gain valuable experience
+          in software development and technology.
+        </p>
+      </div>
+
+      <div class="education">
+        <h2>Education</h2>
+        <ul>
+          <li><b>B.Sc Computer Science</b> – XYZ College (2023 - 2026)</li>
+          <li><b>Higher Secondary</b> – ABC School (2021 - 2023)</li>
+          <li><b>SSLC</b> – DEF School (2019 - 2021)</li>
+        </ul>
+      </div>
+
+      <div class="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Python, Java</li>
+          <li>Database Management (MySQL)</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
+
+      <div class="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><b>Portfolio Website:</b> Personal website showcasing skills & projects.</li>
+          <li><b>Student Management System:</b> A project using Python & MySQL.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
